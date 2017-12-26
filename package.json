@@ -15,6 +15,7 @@
   "author": "Josh Stratton <strattonbrazil@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/ejs": "^2.5.0",
     "@types/express": "types/express",
     "@types/node": "^8.5.2",
     "chai": "^4.1.2",
@@ -22,6 +23,7 @@
     "typescript": "^2.6.2"
   },
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.16.2"
   }
 }
