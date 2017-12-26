@@ -1,0 +1,27 @@
+{
+  "name": "ear",
+  "version": "0.1.0",
+  "description": "An emulator that runs a Roku application in a web app",
+  "main": "index.js",
+  "bin": {
+    "ear": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rm -rf ./lib ./types",
+    "start": "node ./lib/index.js",
+    "test": "mocha"
+  },
+  "author": "Josh Stratton <strattonbrazil@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "types/express",
+    "@types/node": "^8.5.2",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
